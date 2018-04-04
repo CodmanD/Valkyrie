@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Valkyrie</string>
+    <string name="actionMyAccount">MY ACCOUNT</string>
+    <string name="actionMyOrders">MY ORDERS</string>
+    <string name="actionShare">SHARE APP</string>
+    <string name="actionCall">CALL US</string>
+    <string name="actionAboutUs">ABOUT US</string>
+    <string name="choise_your_service">CHOISE YOUR SERVICE</string>
+    <string name="shoes">Shoes</string>
+    <string name="clothes">Clothes</string>
+    <string name="carpets">Carpets</string>
+    <string name="blankets">Blankets</string>
+    <string name="curtains">Curtains</string>
+    <string name="cushions">Cushions</string>
 </resources>
