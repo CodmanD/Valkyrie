@@ -12,4 +12,8 @@
     <string name="blankets">Blankets</string>
     <string name="curtains">Curtains</string>
     <string name="cushions">Cushions</string>
+    <string name="buttonCreateAccount">Create Account</string>
+    <string name="textViewOr">or</string>
+    <string name="buttonSignIn">Sign In</string>
+    <string name="textViewSignUpWith">Sign Up With</string>
 </resources>

@@ -3,9 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <android.support.v7.widget.Toolbar
+    <!--android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,9 +15,78 @@
         android:minHeight="?attr/actionBarSize"
 
         app:subtitleTextColor="?attr/colorButtonNormal"
-        app:titleTextColor="?attr/colorButtonNormal" />
+        app:titleTextColor="?attr/colorButtonNormal" /-->
 
+    <ImageView
 
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingBottom="20dp"
+        android:src="@drawable/valkyrie"
+        android:layout_gravity="top"
+        android:scaleType="centerCrop"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    >
+    <Button
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:text="@string/buttonCreateAccount"
+        android:background="@drawable/button_create_account"
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:text="@string/textViewOr"
+    android:gravity="center"
+    android:textSize="24sp"
+    android:textStyle="italic"
+    />
+    <Button
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/buttonSignIn"
+        android:background="@drawable/button_signin"
+        android:textColor="@color/colorToolbar"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/textViewSignUpWith"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
 
+        />
+    <ImageView
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/facebook"
 
+        />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/instagram"
+
+        />
+</LinearLayout>
 </LinearLayout>

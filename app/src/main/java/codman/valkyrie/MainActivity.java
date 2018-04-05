@@ -8,13 +8,14 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
 
 
@@ -29,8 +30,18 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.navigation)
     NavigationView navigationView;
 
-  //  @BindView(R.id.progressBar)
-  //  ProgressBar progressBar;
+    @BindView(R.id.ll1)
+    LinearLayout ll1;
+    @BindView(R.id.ll2)
+    LinearLayout ll2;
+    @BindView(R.id.ll3)
+    LinearLayout ll3;
+    @BindView(R.id.ll4)
+    LinearLayout ll4;
+    @BindView(R.id.ll5)
+    LinearLayout ll5;
+    @BindView(R.id.ll6)
+    LinearLayout ll6;
   //  @BindView(R.id.rv)
   //  RecyclerView recyclerView;
     @Override
@@ -78,5 +89,36 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
 
+
+        ll1.setOnClickListener(this);
+        ll2.setOnClickListener(this);
+        ll3.setOnClickListener(this);
+        ll4.setOnClickListener(this);
+        ll5.setOnClickListener(this);
+        ll6.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch(v.getId()){
+            case R.id.ll1:
+                Toast.makeText(this,R.string.clothes,Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.ll2:
+                Toast.makeText(this,R.string.carpets,Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.ll3:
+                Toast.makeText(this,R.string.blankets,Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.ll4:
+                Toast.makeText(this,R.string.curtains,Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.ll5:
+                Toast.makeText(this,R.string.shoes,Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.ll6:
+                Toast.makeText(this,R.string.cushions,Toast.LENGTH_SHORT).show();
+                break;
+        }
     }
 }

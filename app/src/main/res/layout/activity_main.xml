@@ -66,14 +66,18 @@
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-
+            android:layout_marginTop="5dp"
             android:orientation="vertical">
 
             <LinearLayout
 
-                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+
                 android:background="@color/colorChoise"
 
+                android:padding="20dp"
                 android:id="@+id/ll1"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -90,7 +94,9 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="3dp"
                     android:layout_weight="4"
-                    android:src="@drawable/clothes_icon" />
+                    android:src="@drawable/clothes_icon"
+
+                    />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -104,7 +110,10 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
                 android:background="@color/colorChoise"
                 android:id="@+id/ll2"
                 android:layout_width="0dp"
@@ -137,7 +146,10 @@
 
 
             <LinearLayout
-                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
                 android:background="@color/colorChoise"
                 android:id="@+id/ll3"
                 android:layout_width="0dp"
@@ -169,7 +181,10 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
                 android:background="@color/colorChoise"
                 android:id="@+id/ll4"
                 android:layout_width="0dp"
@@ -201,7 +216,10 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
                 android:background="@color/colorChoise"
                 android:id="@+id/ll5"
                 android:layout_width="0dp"
@@ -220,7 +238,7 @@
                     android:layout_margin="3dp"
                     android:layout_weight="4"
                     android:src="@drawable/shoes_icon"
-                    android:scaleType="center"
+
                     />
 
                 <TextView
@@ -235,7 +253,10 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
                 android:background="@color/colorChoise"
                 android:id="@+id/ll6"
                 android:layout_width="0dp"
@@ -251,10 +272,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_margin="3dp"
+
                     android:layout_weight="4"
                     android:src="@drawable/cushions_icon"
-                    android:scaleType="center"
+
                     />
 
                 <TextView
