@@ -101,7 +101,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1"
+                    android:layout_weight="2"
                     android:gravity="center"
                     android:text="@string/clothes"
                     android:textColor="@color/colorToolbar"
@@ -136,7 +136,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1"
+                    android:layout_weight="2"
                     android:gravity="center"
                     android:text="@string/carpets"
                     android:textColor="@color/colorToolbar"
@@ -172,7 +172,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1"
+                    android:layout_weight="2"
                     android:gravity="center"
                     android:text="@string/blankets"
                     android:textColor="@color/colorToolbar"
@@ -207,7 +207,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1"
+                    android:layout_weight="2"
                     android:gravity="center"
                     android:text="@string/curtains"
                     android:textColor="@color/colorToolbar"
@@ -244,7 +244,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1"
+                    android:layout_weight="2"
                     android:gravity="center"
                     android:text="@string/shoes"
                     android:textColor="@color/colorToolbar"
@@ -281,7 +281,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1"
+                    android:layout_weight="2"
                     android:gravity="center"
                     android:text="@string/cushions"
                     android:textColor="@color/colorToolbar"

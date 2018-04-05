@@ -16,4 +16,9 @@
     <string name="textViewOr">or</string>
     <string name="buttonSignIn">Sign In</string>
     <string name="textViewSignUpWith">Sign Up With</string>
+    <string name="login">Log in</string>
+    <string name="password">password</string>
+    <string name="user">user</string>
+    <string name="lost">Lost password?</string>
+    <string name="registerNow">Register Now</string>
 </resources>

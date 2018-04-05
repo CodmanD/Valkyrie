@@ -3,7 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:orientation="vertical">
+
+
 
     <ImageView
 
@@ -15,77 +18,34 @@
         android:scaleType="centerCrop"
         android:src="@drawable/valkyrie" />
 
-    <ImageView
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        android:contentDescription="TODO"
-        android:src="@drawable/logo" />
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="7"
-        android:orientation="vertical"
-        android:paddingLeft="50dp"
-        android:paddingRight="50dp"
-        >
-
-0
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="0dp"
-    android:layout_weight="1"
-    android:orientation="horizontal"
-    >
-    <ImageView
-        android:layout_width="0dp"
-        android:layout_weight="1"
         android:layout_height="match_parent"
-        android:src="@drawable/icon_user"
-        android:layout_gravity="center"
-        />
-        <EditText
+        android:orientation="vertical"
+        android:padding="50dp">
 
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="5"
-
-            android:textStyle="italic"
-            android:gravity="center"
-            android:hint="@string/user"
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_create_account"
+            android:text="@string/buttonCreateAccount"
             android:textSize="20sp"
-            android:id="@+id/etUser"
+            android:id="@+id/btnCreateAccount"
             />
-</LinearLayout>
 
-
-        <LinearLayout
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:orientation="horizontal"
-            >
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="match_parent"
-                android:src="@drawable/icon_password"
-                android:layout_gravity="center"
-                />
-        <EditText
-            android:id="@+id/etPassword"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="5"
             android:gravity="center"
-            android:hint="@string/password"
-            android:inputType="textPassword"
-            android:textSize="20sp"
+            android:text="@string/textViewOr"
+            android:textSize="24sp"
             android:textStyle="italic" />
-        </LinearLayout>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -94,7 +54,7 @@
             android:layout_marginRight="20dp"
             android:layout_weight="1"
             android:background="@drawable/button_signin"
-            android:text="@string/login"
+            android:text="@string/buttonSignIn"
             android:textColor="@color/colorToolbar"
             android:textSize="20sp" />
 
@@ -103,9 +63,11 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/lost"
-            android:id="@+id/tvLostPass"
-            android:textSize="18sp"
+            android:text="@string/textViewSignUpWith"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
             />
 
         <ImageView
@@ -128,17 +90,5 @@
             android:contentDescription="TODO"
             android:id="@+id/ivInstagram"
             android:src="@drawable/instagram" />
-
-
     </LinearLayout>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:text="@string/registerNow"
-        android:layout_gravity="bottom"
-        android:textSize="18sp"
-        android:id="@+id/tvRegister"
-        />
 </LinearLayout>
