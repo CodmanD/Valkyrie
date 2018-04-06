@@ -14,7 +14,7 @@
         android:layout_height="60dp"
         android:layout_gravity="top"
         android:contentDescription="TODO"
-        android:paddingBottom="20dp"
+        android:paddingBottom="30dp"
         android:scaleType="centerCrop"
         android:src="@drawable/valkyrie" />
 

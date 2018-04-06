@@ -17,8 +17,17 @@
     <string name="buttonSignIn">Sign In</string>
     <string name="textViewSignUpWith">Sign Up With</string>
     <string name="login">Log in</string>
-    <string name="password">password</string>
-    <string name="user">user</string>
+    <string name="password">Password</string>
+    <string name="user">User Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone Number</string>
+    <string name="address">Address</string>
     <string name="lost">Lost password?</string>
     <string name="registerNow">Register Now</string>
+    <string name="registration">Registration</string>
+    <string name="registrationDescription">Welcome to Valkyrie application.You need to register to start using the application</string>
+    <string name="haveAccount">Allready have an account</string>
+    <string name="signIn"><u>Sign In</u></string>
+    <string name="gotoFacebook">www.facebook.com/valkyrie/laundry</string>
+    <string name="gotoInstagram">www.instagram.com/valkyrie/laundry</string>
 </resources>

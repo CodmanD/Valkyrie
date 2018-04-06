@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="top"
+        android:contentDescription="TODO"
+        android:paddingBottom="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/valkyrie" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/line"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    ></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+            <!--android:paddingRight="-1dp"-->
+            <!--android:paddingLeft="-1dp"-->
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                >
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:gravity="left"
+                android:layout_height="match_parent"
+                android:src="@drawable/circle_step_red"
+               android:id="@+id/iv1"
+
+                />
+                <TextView
+                    android:textSize="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="01"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/iv2"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/circle_step"
+                     />
+                <TextView
+                    android:textSize="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="02"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/circle_step"
+                    android:id="@+id/iv3"
+                 />
+                <TextView
+                    android:textSize="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="03"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/circle_step"
+                    android:id="@+id/iv4"
+                    />
+                <TextView
+                    android:textSize="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="04"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/circle_step"
+                    android:id="@+id/iv5"
+                    />
+                <TextView
+                    android:textSize="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="05"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="26sp"
+    android:text="@string/registration"
+    android:gravity="center"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/registrationDescription"
+        android:gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/email_icon"
+            android:layout_gravity="center"
+            />
+        <EditText
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+
+            android:textStyle="italic"
+            android:gravity="center"
+            android:hint="@string/email"
+            android:textSize="20sp"
+            android:id="@+id/etEmail"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_user"
+            android:layout_gravity="center"
+            />
+        <EditText
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+
+            android:textStyle="italic"
+            android:gravity="center"
+            android:hint="@string/user"
+            android:textSize="20sp"
+            android:id="@+id/etUser"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_password"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/phone_icon"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:hint="@string/phone"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/address_icon"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:hint="@string/address"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginLeft="20dp"
+    android:id="@+id/btnSignIn"
+    android:layout_marginRight="20dp"
+    android:layout_weight="1"
+    android:background="@drawable/button_registration"
+    android:text="@string/registration"
+    android:textColor="@color/colorToolbar"
+    android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/haveAccount"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:textSize="20sp"
+            android:textColorHint="#FF0000"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signIn"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/address_icon"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/tvGoToFacebook"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:hint="@string/gotoFacebook"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/address_icon"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/tvGoToInstagram"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:hint="@string/gotoInstagram"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+
+    <!--<ImageView-->
+
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_gravity="top"-->
+        <!--android:contentDescription="TODO"-->
+        <!--android:paddingBottom="20dp"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:src="@drawable/valkyrie" />-->
+
+    <!--<ImageView-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="2"-->
+        <!--android:contentDescription="TODO"-->
+        <!--android:src="@drawable/logo" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="7"-->
+        <!--android:orientation="vertical"-->
+        <!--android:paddingLeft="50dp"-->
+        <!--android:paddingRight="50dp"-->
+        <!--&gt;-->
+
+        <!--0-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="horizontal"-->
+            <!--&gt;-->
+            <!--<ImageView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:src="@drawable/icon_user"-->
+                <!--android:layout_gravity="center"-->
+                <!--/>-->
+            <!--<EditText-->
+
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="5"-->
+
+                <!--android:textStyle="italic"-->
+                <!--android:gravity="center"-->
+                <!--android:hint="@string/user"-->
+                <!--android:textSize="20sp"-->
+                <!--android:id="@+id/etUser"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="horizontal"-->
+            <!--&gt;-->
+            <!--<ImageView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:src="@drawable/icon_password"-->
+                <!--android:layout_gravity="center"-->
+                <!--/>-->
+            <!--<EditText-->
+                <!--android:id="@+id/etPassword"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="5"-->
+                <!--android:gravity="center"-->
+                <!--android:hint="@string/password"-->
+                <!--android:inputType="textPassword"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textStyle="italic" />-->
+        <!--</LinearLayout>-->
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:id="@+id/btnSignIn"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/button_signin"-->
+            <!--android:text="@string/login"-->
+            <!--android:textColor="@color/colorToolbar"-->
+            <!--android:textSize="20sp" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/lost"-->
+            <!--android:id="@+id/tvLostPass"-->
+            <!--android:textSize="18sp"-->
+            <!--/>-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:contentDescription="TODO"-->
+            <!--android:id="@+id/ivFacebook"-->
+            <!--android:src="@drawable/facebook" />-->
+
+        <!--<ImageView-->
+
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:contentDescription="TODO"-->
+            <!--android:id="@+id/ivInstagram"-->
+            <!--android:src="@drawable/instagram" />-->
+
+
+    <!--</LinearLayout>-->
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/registerNow"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:textSize="18sp"-->
+        <!--android:id="@+id/tvRegister"-->
+        <!--/>-->
+</LinearLayout>

@@ -35,7 +35,7 @@ public class StartActivity extends AppCompatActivity  implements View.OnClickLis
         {
             case R.id.btnCreateAccount:
             {
-                Intent intent= new Intent(StartActivity.this,SplashActivity.class);
+                Intent intent= new Intent(StartActivity.this,CreateAccountActivity.class);
                 startActivity(intent);
             }
 
