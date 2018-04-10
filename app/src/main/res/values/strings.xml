@@ -30,4 +30,7 @@
     <string name="signIn"><u>Sign In</u></string>
     <string name="gotoFacebook">www.facebook.com/valkyrie/laundry</string>
     <string name="gotoInstagram">www.instagram.com/valkyrie/laundry</string>
+    <string name="confirmYourNumber">Confirm Your Number</string>
+    <string name="number">0017</string>
+    <string name="confirm">Confirm</string>
 </resources>
